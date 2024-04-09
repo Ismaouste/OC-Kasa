@@ -23,7 +23,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<HomePage />} /> {/* Route pour la homepage */}
-            <Route path="/card/:title" element={<CardDetailPage />} /> {/* Route for the card detail page */}
+            <Route path="/location/:title" element={<CardDetailPage />} /> {/* Route for the card detail page */}
             <Route path="*" element={<h2>404 Not Found</h2>} />
             <Route path="/about" element={<AboutPage />} />
           </Routes>
