@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 209px;
+    background-color: black;
+    color: white;
+
+    &__logo {
+        max-width: 135px;
+        filter: brightness(0) invert(1); // This filter will make the logo white
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    &__text {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34.22px;
+        text-align: center;
+   
+    @media (max-width: 768px) {
+        font-size: 12px;
+        line-height: 17.11px;
+      }
+    } 
+}
